@@ -1,0 +1,17 @@
+kind: Cluster
+apiVersion: kind.x-k8s.io/v1alpha4
+nodes:
+- role: control-plane
+  image: kindest/node:v1.30.13
+  extraPortMappings:
+    - containerPort: 30080     
+      hostPort: 30080          
+      protocol: tcp
+- role: worker
+  image: kindest/node:v1.30.13
+kubeadmConfigPatches:
+  - |
+    apiVersion: kubeadm.k8s.io/v1beta2
+    kind: ClusterConfiguration
+    apiServer:
+      timeoutForControlPlane: 5m0s
