@@ -1,5 +1,7 @@
 Create a kind cluster using the kind confi.yml file
 
+If you are using **kubeadm** you can also use the below steps
+
 Create Namespace
 
 $ kubectl create namespace my-app
