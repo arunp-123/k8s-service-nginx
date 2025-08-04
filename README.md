@@ -23,7 +23,7 @@ $ kubectl get all -n my-app
 
 To access services running inside "Kind  cluster" from your host machine
 
-ec2IP:<service-port>
+ec2IP:30080
 
 
 
