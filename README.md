@@ -33,4 +33,3 @@ ec2IP:30080
 <img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/25b52418-2a26-48ca-925d-dec1f55343cc" />
 
 
-<img width="2880" height="1800" alt="image" src="https://github.com/user-attachments/assets/4becc5e1-f791-40fb-9bef-cfe8e5712806" />
