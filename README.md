@@ -1,6 +1,6 @@
 Create a kind cluster using the kind confi.yml file
 
-If you are using **kubeadm** you can also use the below steps
+If you are using **kubeadm cluster** you can also use the below steps
 
 Create Namespace
 
